@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Pana Kowalskiego</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Strona Główna</a></li>
+                <li><a href="#about">O mnie</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Usługi</a></li>
+                <li><a href="#testimonials">Referencje</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h1>Witaj na moim portfolio!</h1>
+        <p>Jestem Pan Kowalski, web developer.</p>
+    </section>
+    
+    <section id="about">
+        <h2>O mnie</h2>
+        <p>Opis zawodowy i osobisty Pana Kowalskiego.</p>
+    </section>
+    
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="grid">
+            <!-- Projekt 1 -->
+            <div class="portfolio-item">
+                <img src="projekt1.jpg" alt="Projekt 1">
+                <h3>Projekt 1</h3>
+                <p>Opis projektu 1.</p>
+            </div>
+            <!-- Projekt 2 -->
+            <div class="portfolio-item">
+                <img src="projekt2.jpg" alt="Projekt 2">
+                <h3>Projekt 2</h3>
+                <p>Opis projektu 2.</p>
+            </div>
+            <!-- Więcej projektów -->
+        </div>
+    </section>
+    
+    <section id="services">
+        <h2>Usługi</h2>
+        <p>Opis oferowanych usług.</p>
+    </section>
+    
+    <section id="testimonials">
+        <h2>Referencje</h2>
+        <p>Opinie klientów.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <form>
+            <label for="name">Imię:</label>
+            <input type="text" id="name" name="name">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            
+            <label for="message">Wiadomość:</label>
+            <textarea id="message" name="message"></textarea>
+            
+            <button type="submit">Wyślij</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Pan Kowalski. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
