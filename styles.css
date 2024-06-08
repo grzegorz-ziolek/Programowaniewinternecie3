@@ -25,7 +25,6 @@ nav {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 1em;
 }
 
 .menu-toggle {
@@ -48,7 +47,6 @@ nav {
     margin: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .nav-list li {
