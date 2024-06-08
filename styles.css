@@ -105,16 +105,15 @@ footer {
     color: #ff9800;
 }
 
-#about ul {
+#about .experience, #about .skills {
     text-align: left;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+    margin: 0 auto;
+    max-width: 800px;
 }
 
-#about ul li {
-    margin: 0.5em 0;
+#about ul {
+    padding: 0;
+    list-style-type: none;
 }
 
 #about ul ul {
