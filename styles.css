@@ -1,0 +1,63 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#home {
+    background: url('hero.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1em;
+}
+
+.portfolio-item {
+    background: #f4f4f4;
+    padding: 1em;
+    border-radius: 8px;
+    text-align: center;
+}
+
+@media (max-width: 640px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
