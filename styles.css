@@ -99,3 +99,29 @@ footer {
         flex-direction: column;
     }
 }
+
+#about h3 {
+    margin-top: 1em;
+    color: #ff9800;
+}
+
+#about ul {
+    text-align: left;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#about ul li {
+    margin: 0.5em 0;
+}
+
+#about ul ul {
+    margin-left: 20px;
+}
+
+#about ul ul li {
+    list-style-type: disc;
+    margin-left: 20px;
+}
