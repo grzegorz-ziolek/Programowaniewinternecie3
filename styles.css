@@ -4,12 +4,15 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #121212;
+    color: #e0e0e0;
 }
 
 header {
     background-color: #333;
     color: #fff;
     padding: 1em 0;
+    text-align: center;
 }
 
 nav ul {
@@ -33,6 +36,7 @@ section {
     padding: 2em;
     max-width: 1200px;
     margin: 0 auto;
+    text-align: center;
 }
 
 #home {
@@ -50,10 +54,43 @@ section {
 }
 
 .portfolio-item {
-    background: #f4f4f4;
+    background: #1e1e1e;
     padding: 1em;
     border-radius: 8px;
     text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label, form input, form textarea {
+    width: 100%;
+    max-width: 400px;
+    margin: 0.5em 0;
+}
+
+form button {
+    margin-top: 1em;
+    padding: 0.5em 2em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: #fff;
 }
 
 @media (max-width: 640px) {
