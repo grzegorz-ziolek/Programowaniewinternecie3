@@ -1,4 +1,3 @@
-/* styles.css */
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +6,7 @@
 
 html, body {
     width: 100%;
-    overflow-x: hidden; /* Zapobiega przewijaniu poziomemu */
+    overflow-x: hidden;
     font-family: Arial, sans-serif;
     background-color: #121212;
     color: #e0e0e0;
@@ -30,7 +29,7 @@ nav {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    width: 100%; /* Upewnienie się, że nawigacja zajmuje całą szerokość */
+    width: 100%;
 }
 
 .menu-toggle {
@@ -53,7 +52,7 @@ nav {
     margin: 0;
     display: flex;
     justify-content: center;
-    width: 100%; /* Zapewnia, że lista nawigacyjna zajmuje całą szerokość */
+    width: 100%;
 }
 
 .nav-list li {
@@ -70,7 +69,7 @@ section {
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
-    width: 100%; /* Upewnienie się, że sekcje zajmują całą szerokość */
+    width: 100%; 
 }
 
 #home {
@@ -81,10 +80,10 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 60px); /* Dostosowanie wysokości do ekranu */
+    height: calc(100vh - 60px);
     position: relative;
     width: 100%;
-    margin-top: 60px; /* Uwzględnienie wysokości nagłówka */
+    margin-top: 60px;
 }
 
 #home .hero-content {
@@ -99,15 +98,15 @@ section {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5); /* Dodanie półprzezroczystego tła */
+    background: rgba(0, 0, 0, 0.5);
     z-index: 1;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Dostosowanie siatki dla większych ekranów */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1em;
-    width: 100%; /* Zapewnia, że siatka zajmuje całą szerokość */
+    width: 100%;
 }
 
 .portfolio-item {
@@ -115,15 +114,15 @@ section {
     padding: 1em;
     border-radius: 8px;
     text-align: center;
-    overflow: hidden; /* Zapobiega wychodzeniu zawartości poza element */
+    overflow: hidden;
     box-sizing: border-box;
 }
 
 .portfolio-item img {
     width: 100%;
     height: auto;
-    object-fit: cover; /* Skaluje i przycina obraz, aby wypełnił kontener */
-    border-radius: 8px; /* Dopasowanie zaokrąglonych rogów do kontenera */
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 form {
@@ -132,7 +131,7 @@ form {
     align-items: center;
     max-width: 400px;
     margin: 0 auto;
-    width: 100%; /* Ustawienie szerokości na 100% */
+    width: 100%;
 }
 
 form label, form input, form textarea {
@@ -159,7 +158,7 @@ footer {
     padding: 1em 0;
     background-color: #333;
     color: #fff;
-    width: 100%; /* Ustawienie szerokości na 100% */
+    width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -187,7 +186,7 @@ footer {
 @media (max-width: 640px) {
     nav ul {
         flex-direction: column;
-        width: 100%; /* Upewnienie się, że lista zajmuje całą szerokość */
+        width: 100%;
     }
 }
 
@@ -200,7 +199,7 @@ footer {
     text-align: left;
     margin: 0 auto;
     max-width: 800px;
-    width: 100%; /* Upewnienie się, że sekcje zajmują całą szerokość */
+    width: 100%;
 }
 
 #about ul {
