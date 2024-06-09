@@ -1,4 +1,3 @@
-// scripts.js
 document.addEventListener("DOMContentLoaded", function() {
     const links = document.querySelectorAll("nav ul li a");
     const mobileMenu = document.getElementById("mobile-menu");
@@ -13,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 behavior: "smooth"
             });
 
-            // Zamknij menu po kliknięciu na link
             if (navList.classList.contains("active")) {
                 navList.classList.remove("active");
             }
