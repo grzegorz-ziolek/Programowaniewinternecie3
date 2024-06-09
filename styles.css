@@ -75,6 +75,8 @@ section {
     align-items: center;
     height: calc(100vh - 60px); /* Dostosowanie wysokości do ekranu */
     position: relative;
+    width: 100%;
+    margin-top: 60px; /* Uwzględnienie wysokości nagłówka */
 }
 
 #home .hero-content {
@@ -104,6 +106,14 @@ section {
     padding: 1em;
     border-radius: 8px;
     text-align: center;
+    overflow: hidden; /* Zapobiega wychodzeniu zawartości poza element */
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Skaluje i przycina obraz, aby wypełnił kontener */
+    border-radius: 8px; /* Dopasowanie zaokrąglonych rogów do kontenera */
 }
 
 form {
