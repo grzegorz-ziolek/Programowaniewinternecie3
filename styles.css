@@ -105,15 +105,15 @@ section {
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr; /* Domyślnie jedna kolumna */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Dostosowanie siatki dla większych ekranów */
     gap: 1em;
     justify-items: center; /* Wyśrodkowanie elementów w poziomie */
     width: 100%; /* Zapewnia, że siatka zajmuje całą szerokość */
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .grid {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Dostosowanie siatki dla większych ekranów */
+        grid-template-columns: 1fr; /* Jedna kolumna na mobilnych */
     }
 }
 
