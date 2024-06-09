@@ -30,6 +30,7 @@ nav {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
+    width: 100%; /* Upewnienie się, że nawigacja zajmuje całą szerokość */
 }
 
 .menu-toggle {
@@ -69,6 +70,7 @@ section {
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
+    width: 100%; /* Upewnienie się, że sekcje zajmują całą szerokość */
 }
 
 #home {
@@ -106,6 +108,7 @@ section {
     grid-template-columns: 1fr; /* Jedna kolumna na mobilnych */
     gap: 1em;
     justify-items: center; /* Wyśrodkowanie elementów w poziomie */
+    width: 100%; /* Zapewnia, że siatka zajmuje całą szerokość */
 }
 
 .portfolio-item {
@@ -132,6 +135,7 @@ form {
     align-items: center;
     max-width: 400px;
     margin: 0 auto;
+    width: 100%; /* Ustawienie szerokości na 100% */
 }
 
 form label, form input, form textarea {
@@ -158,6 +162,7 @@ footer {
     padding: 1em 0;
     background-color: #333;
     color: #fff;
+    width: 100%; /* Ustawienie szerokości na 100% */
 }
 
 @media (max-width: 768px) {
@@ -185,6 +190,7 @@ footer {
 @media (max-width: 640px) {
     nav ul {
         flex-direction: column;
+        width: 100%; /* Upewnienie się, że lista zajmuje całą szerokość */
     }
 }
 
@@ -197,6 +203,7 @@ footer {
     text-align: left;
     margin: 0 auto;
     max-width: 800px;
+    width: 100%; /* Upewnienie się, że sekcje zajmują całą szerokość */
 }
 
 #about ul {
