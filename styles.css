@@ -98,8 +98,9 @@ section {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: 1fr; /* Zmiana na jedną kolumnę na mobilnych */
     gap: 1em;
+    justify-items: center; /* Wyśrodkowanie elementów w poziomie */
 }
 
 .portfolio-item {
@@ -108,6 +109,9 @@ section {
     border-radius: 8px;
     text-align: center;
     overflow: hidden; /* Zapobiega wychodzeniu zawartości poza element */
+    width: 100%; /* Ustawienie szerokości na 100% */
+    max-width: 400px; /* Maksymalna szerokość dla elementu */
+    box-sizing: border-box;
 }
 
 .portfolio-item img {
