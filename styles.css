@@ -105,21 +105,9 @@ section {
 
 .grid {
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Dostosowanie siatki dla większych ekranów */
     gap: 1em;
-    justify-items: center; /* Wyśrodkowanie elementów w poziomie */
     width: 100%; /* Zapewnia, że siatka zajmuje całą szerokość */
-}
-
-@media (min-width: 769px) {
-    .grid {
-        grid-template-columns: repeat(2, 1fr); /* Dostosowanie siatki dla większych ekranów */
-    }
-}
-
-@media (max-width: 768px) {
-    .grid {
-        grid-template-columns: 1fr; /* Jedna kolumna na mobilnych */
-    }
 }
 
 .portfolio-item {
@@ -128,8 +116,6 @@ section {
     border-radius: 8px;
     text-align: center;
     overflow: hidden; /* Zapobiega wychodzeniu zawartości poza element */
-    width: 100%; /* Ustawienie szerokości na 100% */
-    max-width: 400px; /* Maksymalna szerokość dla elementu */
     box-sizing: border-box;
 }
 
